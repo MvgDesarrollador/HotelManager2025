@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+}
+#mascots {
+  text-align: center;
+  margin-left: 15%;
+}
+#mascot1 {
+  padding-top: 40px;
+  margin-left: -11%;
+}
+
+#mascots-center {
+  margin-left: 13%;
+}
+#mascot2 {
+  width: 350px;
+  margin-left: 0%;
+}
