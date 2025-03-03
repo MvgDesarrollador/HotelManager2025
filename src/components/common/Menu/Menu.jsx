@@ -23,16 +23,19 @@ export function Menu() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/home">
-                  Home
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/about-us"
+                >
+                  About us
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/dash">
-                  DashBoard
+                <Link className="nav-link" to="/reservations/dashboard">
+                  Reservations
                 </Link>
               </li>
-            
             </ul>
             <form className="d-flex" role="search">
               <input

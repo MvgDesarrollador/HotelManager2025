@@ -1,3 +1,8 @@
-.menu{
-    background-color: #123c64;
+.menu {
+  background-color: #553662;
+}
+
+.navbar-brand {
+  font-size: large;
+  margin-right: 8px;
 }
