@@ -12,7 +12,7 @@ export function About() {
           />
         </section>
         <section className="col-12 col-md-3" id="mascots-center">
-          <h2>Hotel Manager</h2>
+          <h2 id="hotel-manager">Hotel Manager</h2>
           <p>
             Discover the ultimate convenience in hotel booking with Hotel
             Manager! Our user-friendly app allows you to effortlessly browse,

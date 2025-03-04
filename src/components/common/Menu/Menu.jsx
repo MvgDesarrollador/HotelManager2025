@@ -1,5 +1,6 @@
 import "./Menu.css";
 import { Link } from "react-router-dom";
+import icon from "../../../assets/img/booking (1).png"; // Ajusta la ruta según donde tengas tu archivo
 
 export function Menu() {
   return (
@@ -7,7 +8,7 @@ export function Menu() {
       <nav className="navbar navbar-expand-lg menu navbar-dark fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/home">
-            Home
+            Hotel Manager
           </Link>
           <button
             className="navbar-toggler"
@@ -22,9 +23,10 @@ export function Menu() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+              <li className="nav-item" id="about-us-menu2">
                 <Link
                   className="nav-link active"
+                  id="about-us-menu"
                   aria-current="page"
                   to="/about-us"
                 >
@@ -32,8 +34,21 @@ export function Menu() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/reservations/dashboard">
-                  Reservations
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/reservations/dashboard"
+                >
+                  <img
+                    src={icon}
+                    alt="Icono de Reservas"
+                    style={{
+                      width: "20px",
+                      height: "20px",
+                      marginRight: "5px",
+                      color: "white",
+                    }} // Estilos opcionales
+                  />
                 </Link>
               </li>
             </ul>
