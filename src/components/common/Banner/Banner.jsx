@@ -4,7 +4,7 @@ export function Banner() {
     <>
       <section className="banner">
         <h2 className="text-white">
-          <span className="display-1">Hotel Manager</span>
+          <span className="display-1 hm">Hotel Manager</span>
           <br />
           Control and comfort in one only place, manage your hotel and
           reservations here!

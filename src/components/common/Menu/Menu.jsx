@@ -7,7 +7,7 @@ export function Menu() {
     <>
       <nav className="navbar navbar-expand-lg menu navbar-dark fixed-top">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/home">
+          <Link className="navbar-brand" id="H" to="/home">
             Hotel Manager
           </Link>
           <button

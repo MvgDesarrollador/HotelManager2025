@@ -8,6 +8,11 @@
   z-index: 1;
 }
 
+.hm {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
 .banner::after {
   content: "";
   position: absolute;
