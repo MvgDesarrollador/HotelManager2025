@@ -3,11 +3,14 @@
 }
 #mascots {
   text-align: center;
-  margin-left: 15%;
+  margin-left: 5%;
 }
 #mascot1 {
-  padding-top: 40px;
-  margin-left: -11%;
+  margin-top: 3%;
+  margin-left: 1.5%;
+  margin-right: -12%;
+  height: auto;
+  width: auto;
 }
 
 #mascots-center {
@@ -16,4 +19,8 @@
 #mascot2 {
   width: 350px;
   margin-left: 0%;
+}
+
+#root {
+  text-align: center;
 }
