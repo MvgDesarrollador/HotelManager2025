@@ -1,0 +1,13 @@
+.imagenes {
+  border-radius: 15px; /* Radio de borde */
+  border: 1.5px solid black;
+}
+
+.botones {
+  border-radius: 15px; /* Radio de borde */
+}
+
+.cards {
+  background-color: rgb(191, 221, 255);
+  border: 1px solid black;
+}

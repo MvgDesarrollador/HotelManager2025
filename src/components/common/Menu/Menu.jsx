@@ -33,12 +33,15 @@ export function Menu() {
                   About us
                 </Link>
               </li>
-              <li className="nav-item">
+
+              <li className="nav-item" id="about-us-menu2">
                 <Link
                   className="nav-link active"
+                  id="about-us-menu"
                   aria-current="page"
-                  to="/reservations/dashboard"
+                  to="/reservations"
                 >
+                  Reservations
                   <img
                     src={icon}
                     alt="Icono de Reservas"
@@ -47,8 +50,33 @@ export function Menu() {
                       height: "20px",
                       marginRight: "5px",
                       color: "white",
-                    }} // Estilos opcionales
+                    }}
                   />
+                </Link>
+              </li>
+              <li className="nav-item" id="about-us-menu2">
+                <Link
+                  className="nav-link active"
+                  id="about-us-menu"
+                  aria-current="page"
+                  to="/booking"
+                >
+                  Booking
+                </Link>
+              </li>
+              <li className="nav-item" id="about-us-menu2">
+                <Link
+                  className="nav-link active"
+                  id="about-us-menu"
+                  aria-current="page"
+                  to="/dashboard"
+                >
+                  Dashboard
+                </Link>
+              </li>
+              <li className="nav-item" id="about-us-menu2">
+                <Link className="nav-link" id="about-us-menu" to="/formulario">
+                  Formulario Reservas
                 </Link>
               </li>
             </ul>
@@ -69,3 +97,6 @@ export function Menu() {
     </>
   );
 }
+
+//como crear una tabla dinamica usando react
+//

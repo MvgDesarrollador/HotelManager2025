@@ -6,7 +6,7 @@ export function About() {
       <section className="row">
         <section className="col-12 col-md-3" id="mascot1">
           <img
-            src="../../../../src/assets/img/03_03_2025_X-Design.png"
+            src="../../../../src/assets/img/muchacho.png"
             alt="imagen"
             className="mascot-img"
           />
@@ -23,7 +23,7 @@ export function About() {
         </section>
         <section className="col-12 col-md-3" id="mascot2">
           <img
-            src="../../../../src/assets/img/03_03_2025_X-Design (1).png"
+            src="../../../../src/assets/img/mounstricos.png"
             alt="imagen"
             className="mascot-img"
           />
